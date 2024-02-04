@@ -1,0 +1,72 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+      }
+      
+      main {
+        padding: 2rem;
+      }
+      
+      .scoreboard {
+        margin-bottom: 1rem;
+      }
+      
+      .choices {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .choice {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      
+      .result {
+        margin-bottom: 1rem;
+      }
+      
+      #reset {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      
+}
+.parent {
+
+    width: 400px;
+    height: 400px;
+
+    background-color: black;
+
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+
+    background-color: red;
+}
+
+.inner-child{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+}
